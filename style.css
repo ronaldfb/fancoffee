@@ -37,6 +37,14 @@ nav {
     align-items: center;
 }
 
+header > nav > ul > li > a {
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
 .logo {
     font-family: Teko;
     font-size: 2rem;
@@ -49,6 +57,12 @@ nav {
     flex-direction: row;
     gap: 1.5rem;
     color: #FFF2E780;
+
+}
+
+.menu a:hover {
+    color: #FFF2E7;
+    background-color: #A45A49;
 }
 
 .github {
